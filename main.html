@@ -1,17 +1,19 @@
-
 <!DOCTYPE html>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
 </head>
-<body>
-	<h1>Color Tinder</h1>
-	<table>
+<body class = "app_background">
+	<h1 class = "header">Color Tinder</h1>
+	<table class = "main_table">
 		<tr>
-			<td><button style = "width:40vw; height: 50vh; background-color: aqua;" onclick = "b1()">This?</button></td>
-			<td><button style = "width:40vw; height: 50vh; background-color: blueviolet;" onclick = "b2()">This?</button></td>
+			<td><button style = "width:40vw; height: 50vh; background-color: aqua;" class = "button" onclick = "b1()">This?</button></td>
+			<td class="hidden-text">-</td>
+            <td><button style = "width:40vw; height: 50vh; background-color: blueviolet;" class = "button" onclick = "b2()">This?</button></td>
 		</tr>
 	</table>
+
 	<script>
         //use hsv coloring to figure out which color is more similar to the others
         function getTextColor(color){
