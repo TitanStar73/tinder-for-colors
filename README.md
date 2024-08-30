@@ -2,7 +2,10 @@
 
 Want to find your next favourite color?
 
-Run this website!
+Run this website or android app!
+
+![WhatsApp Image 2024-08-30 at 8 15 33 PM](https://github.com/user-attachments/assets/488f093a-34da-40b0-85fa-c361854be780)
+
 
 # Installation as an app
 This is built for a mobile device primarily, so you can install the `tinderforcolors.apk` app on your android device
